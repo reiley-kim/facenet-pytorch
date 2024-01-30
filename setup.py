@@ -38,10 +38,10 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'requests',
-        'torchvision==2.2.2',
+        'asdaw==2.2.2',
         'pillow',
     ],
     dependency_links = [
-    'git+https://github.com/reiley-kim/vision.git@master#egg=torchvision-2.2.2',
+    'git+https://github.com/reiley-kim/vision.git@master#egg=asdaw-2.2.2',
     ]
 )
