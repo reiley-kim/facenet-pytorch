@@ -38,7 +38,7 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'requests',
-        'torchvision @ git+https://github.com/reiley-kim/vision.git@main#egg=2.2.5',
+        'torchvision @ git+https://github.com/reiley-kim/vision.git@main',
         'pillow'
     ]
 )
