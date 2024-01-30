@@ -42,6 +42,6 @@ setuptools.setup(
         'pillow',
     ],
     dependency_links = [
-    'git+https://github.com/reiley-kim/vision.git@main#egg=2.2.0reiley',
+    'git+https://github.com/reiley-kim/vision.git@main#egg=torchvision-2.2.0reiley',
     ]
 )
