@@ -38,10 +38,10 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'requests',
-        'torchvision',
+        'torchvision==2.2.2',
         'pillow',
     ],
     dependency_links = [
-    'git+https://github.com/reiley-kim/vision.git#egg=torchvision',
+    'git+https://github.com/reiley-kim/vision.git#egg=torchvision-2.2.2',
     ]
 )
