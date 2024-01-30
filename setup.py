@@ -38,7 +38,9 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'requests',
-        'torchvision@git+https://github.com/reiley-kim/vision.git@main#egg=torchvision'
+        # 'torchvision@git+https://github.com/reiley-kim/vision.git@main#egg=torchvision'
+        'torchvision',
+        'torch@git+https://github.com/pytorch/pytorch.git@nightly#egg=torch',
         'pillow'
     ]
 )
